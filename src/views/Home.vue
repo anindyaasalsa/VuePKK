@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <!-- banner area start -->
     <div class="banner-area pt-90 pb-100 fix mt-100">
@@ -414,8 +415,25 @@
       </div>
     </div>
     <!-- top seller area end -->
+=======
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+>>>>>>> 8d32a143334501f521d509eb93d5c909fac7ea44
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
+=======
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    HelloWorld
+  }
+}
+>>>>>>> 8d32a143334501f521d509eb93d5c909fac7ea44
 </script>
